@@ -1,183 +1,305 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-  <title>Responsive Resume Template</title>
-  <meta name="viewport" content="width=device-width"><link rel="stylesheet" href="https://public.codepenassets.com/css/reset-2.0.min.css">
-<link rel="stylesheet" href="./style.css">
+<body class="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white font-sans overflow-x-hidden">
+  <!-- Background Animation -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none">
+    <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-subtle"></div>
+    <div class="absolute top-3/4 right-1/4 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-subtle" style="animation-delay: 1s;"></div>
+    <div class="absolute bottom-1/4 left-1/2 w-80 h-80 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-subtle" style="animation-delay: 2s;"></div>
+  </div>
 
-</head>
-<body>
-  <a href="index-da.html" class="lang-switch-btn">Dansk</a>
-<!-- partial:index.partial.html -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<div class="resume-wrapper">
-	<section class="profile section-padding">
-		<div class="container">
-			<div class="picture-resume-wrapper">
-        <div class="picture-resume">
-        <span><img src="IMG_20240128_151618.jpg" alt="" /></span>
-        <svg version="1.1" viewBox="0 0 350 350">
-  
-  <defs>
-    <filter id="goo">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
-    </filter>
-  </defs>
-  
-  
-<g filter="url(#goo)" >  
-  
-  <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130"/>
-  
-  <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <div class="relative z-10 max-w-4xl mx-auto p-4 sm:p-6 space-y-6 sm:space-y-8">
+    <!-- Header Section -->
+    <header class="text-center py-8 sm:py-12 animate-fade-in-up">
+      <div class="relative inline-block">
+        <div class="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1">
+          <div class="w-full h-full rounded-full bg-slate-800 flex items-center justify-center text-4xl font-bold">
+            JD
+          </div>
+        </div>
+        <div class="absolute -top-2 -right-2 w-6 h-6 bg-green-400 rounded-full border-2 border-white animate-pulse"></div>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-bold mb-2 text-white drop-shadow-lg">John Doe</h1>
+      <p class="text-lg sm:text-xl text-slate-300 mb-4">Senior Full Stack Developer</p>
+      <div class="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 space-y-2 sm:space-y-0 text-sm">
+        <span class="flex items-center space-x-2">
+          <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+          <span>john.doe@email.com</span>
+        </span>
+        <span class="flex items-center space-x-2">
+          <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+          <span>+1 (555) 123-4567</span>
+        </span>
+        <span class="flex items-center space-x-2">
+          <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+          <span>San Francisco, CA</span>
+        </span>
+      </div>
+    </header>
 
-</g>  
-</svg>
-      </div>
-         <div class="clearfix"></div>
- </div>
-      <div class="name-wrapper">
-        <h1>Nicolai <br/>Bjerregaard Jensen</h1><!-- YOUR NAME AND LAST NAME  -->
-      </div>
-      <div class="clearfix"></div>
-      <div class="contact-info clearfix">
-          <ul class="list-titles">
-              <li>Tlf</li>
-              <li>Mail</li>
-              <li>Home</li>
-              <li>Age</li>
-          </ul>
-          <ul class="list-content ">
-              <li>42728416</li> <!-- YOUR PHONE NUMBER  -->
-              <li>nbjerregaard1@gmail.com</li> <!-- YOUR EMAIL -->
-              <li>6500 Vojens</li> <!-- YOUR STATE AND COUNTRY  -->
-              <li>32 Years</li>
-          </ul>
-      </div>
-      <div class="contact-presentation"> <!-- YOUR PRESENTATION RESUME  -->
-          <p>
-              <span class="bold">About me</span> As a Computer Science student with a background as an Aircraft Mechanic, I bring a strong foundation of technical expertise to the table.
-              Throughout my studies, I have developed skills in programming with C#, SQL, and Blazor.
-              My goal is to combine my technical background with my IT competencies and continue developing within software development and system design.
+    <!-- Main Content Grid -->
+    <div class="grid lg:grid-cols-3 gap-6 lg:gap-8">
+      <!-- Left Column -->
+      <div class="lg:col-span-2 space-y-6 lg:space-y-8 min-w-0">
+        <!-- About Section -->
+        <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up" style="animation-delay: 0.2s;">
+          <h2 class="text-xl sm:text-2xl font-bold mb-4 flex items-center">
+            <div class="w-8 h-8 bg-gradient-to-r from-blue-400 to-purple-400 rounded-lg mr-3 flex items-center justify-center">
+              <i class="fas fa-user text-white text-sm"></i>
+            </div>
+            About Me
+          </h2>
+          <p class="text-slate-300 leading-relaxed">
+            Passionate full-stack developer with 8+ years of experience crafting scalable web applications.
+            I specialize in React, Node.js, and cloud architecture, with a proven track record of leading
+            cross-functional teams and delivering high-impact solutions that drive business growth.
           </p>
-      </div>
-      <div class="contact-social clearfix">
-      	
-        <ul class="list-content"> <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
-            <li>
-                <a href="https://www.linkedin.com/in/nicolai-bjerregaard-jensen-b04433167" class="social-btn" target="_blank" rel="noopener">LinkedIn Profile</a>
-            </li>		
-      		
-      	</ul>
-      </div>
-		</div>
-	</section>
-  
-  <section class="experience section-padding">
-      <div class="container">
-          <h3 class="experience-title">Experience</h3>
+        </section>
 
-          <div class="experience-wrapper">
-              <div class="company-wrapper clearfix">
-                  <div class="experience-title">RDAF - Fighter wing Skrydstrup  </div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                  <div class="time">Dec 2016 - Jan 2024</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+        <!-- Experience Section -->
+        <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up" style="animation-delay: 0.4s;">
+          <h2 class="text-xl sm:text-2xl font-bold mb-6 flex items-center">
+            <div class="w-8 h-8 bg-gradient-to-r from-green-400 to-blue-400 rounded-lg mr-3 flex items-center justify-center">
+              <i class="fas fa-briefcase text-white text-sm"></i>
+            </div>
+            Experience
+          </h2>
+
+          <div class="space-y-6 sm:space-y-8">
+            <div class="relative pl-6 sm:pl-8 border-l-2 border-purple-400">
+              <div class="absolute -left-2 top-0 w-4 h-4 bg-purple-400 rounded-full"></div>
+              <div class="mb-4">
+                <h3 class="text-lg sm:text-xl font-semibold text-white">Senior Full Stack Developer</h3>
+                <p class="text-purple-300 font-medium">TechCorp Inc.</p>
+                <p class="text-sm text-slate-400">2021 - Present</p>
               </div>
-
-              <div class="job-wrapper clearfix">
-                  <div class="experience-title">F-16 Turbine Engine Technician </div> <!-- JOB TITLE  -->
-                  <div class="company-description">
-                      <p>
-                          In the role of F-16 Turbine Engine Technician, the focus was on maintenance and repair of complex turbine engines. The work required in-depth technical knowledge as well as the ability to work under pressure. Quality and safety were paramount, which resulted in strict adherence to procedures and standards.
-                      </p>
-                      <ul class="job-points">
-                          <li>Performed comprehensive inspections and maintenance of turbine engines.</li>
-                          <li>Implemented troubleshooting techniques to quickly identify and resolve issues.</li>
-                          <li>Worked in a team to ensure efficient operations and safety in all activities.</li>
-                          <li>Testing and startup of F-16 aircraft.</li>
-                      </ul>
-                  </div>
-              </div>
-
-          </div><!--Skill experience-->
-          <h3 class="experience-title">School</h3>
-          <div class="experience-wrapper">
-              <!-- UCL Datamatiker -->
-              <div class="school-entry">
-                  <div class="school-row">
-                      <span class="school-institution">UCL Erhvervsakademi og Professionshøjskole</span>
-                      <span class="school-title">- CS student</span>
-                  </div>
-                  <div class="time">Feb 2024 - Present</div>
-              </div>
-              <!-- Karup Flymekaniker -->
-              <div class="school-entry">
-                  <div class="school-row">
-                      <span class="school-institution">Karup RDAF</span>
-                      <span class="school-title">- Airplane Technician</span>
-                  </div>
-                  <div class="time">Dec 2013 - Dec 2016</div>
-              </div>
-              <!-- Varde Konstabel elev -->
-              <div class="school-entry">
-                  <div class="school-row">
-                      <span class="school-institution">Artilleriet Varde</span>
-                      <span class="school-title">- Private</span>
-                  </div>
-                  <div class="time">Aug 2012 - Sep 2013</div>
-              </div>
-              <!-- EUC Syd HTX -->
-              <div class="school-entry">
-                  <div class="school-row">
-                      <span class="school-institution">Euc Syd</span>
-                      <span class="school-title">- HTX</span>
-                  </div>
-                  <div class="time">Nov 2009 - Nov 2012</div>
-              </div>
-          </div>
-
-
-
-
-          <div class="section-wrapper clearfix">
-              <h3 class="section-title">Skills</h3>  <!-- DESCRIPTION OF YOUR HOBBIES -->
-              <ul class="skills-list">
-                  <li>C#</li>
-                  <li>SQL</li>
-                  <li>Blazor</li>
-                  <li>API</li>
-                  <li>WPF</li>
-                  <li>Scrum</li>
-                  <li>Git</li>
-                  <li>Technical expertise</li>
-                  <li>Used to working in a team</li>
-                  <li>Military discipline</li>
+              <ul class="text-slate-300 space-y-2 text-sm">
+                <li>• Led development of microservices architecture serving 2M+ users</li>
+                <li>• Reduced application load time by 40% through optimization strategies</li>
+                <li>• Mentored 5 junior developers and established coding standards</li>
               </ul>
-              
+            </div>
+
+            <div class="relative pl-6 sm:pl-8 border-l-2 border-blue-400">
+              <div class="absolute -left-2 top-0 w-4 h-4 bg-blue-400 rounded-full"></div>
+              <div class="mb-4">
+                <h3 class="text-lg sm:text-xl font-semibold text-white">Full Stack Developer</h3>
+                <p class="text-blue-300 font-medium">StartupXYZ</p>
+                <p class="text-sm text-slate-400">2019 - 2021</p>
+              </div>
+              <ul class="text-slate-300 space-y-2 text-sm">
+                <li>• Built scalable e-commerce platform from ground up</li>
+                <li>• Implemented CI/CD pipeline reducing deployment time by 60%</li>
+                <li>• Collaborated with design team to create responsive user interfaces</li>
+              </ul>
+            </div>
           </div>
-          <div class="section-wrapper clearfix"> <h3 class="section-title">Private life </h3>  <!-- DESCRIPTION OF YOUR HOBBIES --> <p>
-    I'm a 32-year-old family man living on a former farm together with my wife, our 3-year-old son, our 5-month-old daughter, and our dog.
-    When I have some spare time, I enjoy working on small projects around the house. I've always had a strong interest in IT, which is also evident at home, with small servers, 3D printers, and Homeassistent automations.
-</p> </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up" style="animation-delay: 0.6s;">
+          <h2 class="text-xl sm:text-2xl font-bold mb-6 flex items-center">
+            <div class="w-8 h-8 bg-gradient-to-r from-pink-400 to-red-400 rounded-lg mr-3 flex items-center justify-center">
+              <i class="fas fa-code text-white text-sm"></i>
+            </div>
+            Featured Projects
+          </h2>
+
+          <!-- Mobile: Stack vertically, Desktop: Horizontal scroll -->
+          <div class="block sm:hidden space-y-4">
+            <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700 hover:border-purple-400 transition-all duration-300">
+              <h3 class="text-lg font-semibold mb-2 text-white">AI Dashboard</h3>
+              <p class="text-slate-300 text-sm mb-4">Real-time analytics platform with machine learning insights</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-xs">React</span>
+                <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-xs">Node.js</span>
+                <span class="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-xs">Python</span>
+              </div>
+            </div>
+
+            <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700 hover:border-blue-400 transition-all duration-300">
+              <h3 class="text-lg font-semibold mb-2 text-white">Mobile Banking App</h3>
+              <p class="text-slate-300 text-sm mb-4">Secure financial application with biometric authentication</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full text-xs">React Native</span>
+                <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 rounded-full text-xs">TypeScript</span>
+                <span class="px-3 py-1 bg-red-500/20 text-red-300 rounded-full text-xs">AWS</span>
+              </div>
+            </div>
+
+            <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700 hover:border-emerald-400 transition-all duration-300">
+              <h3 class="text-lg font-semibold mb-2 text-white">E-Commerce Platform</h3>
+              <p class="text-slate-300 text-sm mb-4">Scalable marketplace with advanced search and recommendation engine</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full text-xs">Next.js</span>
+                <span class="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-full text-xs">MongoDB</span>
+                <span class="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-xs">Docker</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Desktop: Horizontal scroll -->
+          <div class="hidden sm:block overflow-x-auto pb-4">
+            <div class="flex space-x-6 min-w-max">
+              <div class="bg-slate-800/50 rounded-xl p-6 border border-slate-700 hover:border-purple-400 transition-all duration-300 flex-shrink-0 w-80">
+                <h3 class="text-lg font-semibold mb-2 text-white">AI Dashboard</h3>
+                <p class="text-slate-300 text-sm mb-4">Real-time analytics platform with machine learning insights</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-xs">React</span>
+                  <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-xs">Node.js</span>
+                  <span class="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-xs">Python</span>
+                </div>
+              </div>
+
+              <div class="bg-slate-800/50 rounded-xl p-6 border border-slate-700 hover:border-blue-400 transition-all duration-300 flex-shrink-0 w-80">
+                <h3 class="text-lg font-semibold mb-2 text-white">Mobile Banking App</h3>
+                <p class="text-slate-300 text-sm mb-4">Secure financial application with biometric authentication</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full text-xs">React Native</span>
+                  <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 rounded-full text-xs">TypeScript</span>
+                  <span class="px-3 py-1 bg-red-500/20 text-red-300 rounded-full text-xs">AWS</span>
+                </div>
+              </div>
+
+              <div class="bg-slate-800/50 rounded-xl p-6 border border-slate-700 hover:border-emerald-400 transition-all duration-300 flex-shrink-0 w-80">
+                <h3 class="text-lg font-semibold mb-2 text-white">E-Commerce Platform</h3>
+                <p class="text-slate-300 text-sm mb-4">Scalable marketplace with advanced search and recommendation engine</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full text-xs">Next.js</span>
+                  <span class="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-full text-xs">MongoDB</span>
+                  <span class="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-xs">Docker</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-  </section>
 
-  
-  <div class="clearfix"></div>
-</div>
-<!-- partial -->
-  <script src='//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script><script  src="./script.js"></script>
+      <!-- Right Column -->
+      <div class="space-y-6 lg:space-y-8">
+        <!-- Skills Section -->
+        <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up" style="animation-delay: 0.3s;">
+          <h2 class="text-xl sm:text-2xl font-bold mb-6 flex items-center">
+            <div class="w-8 h-8 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-lg mr-3 flex items-center justify-center">
+              <i class="fas fa-tools text-white text-sm"></i>
+            </div>
+            Skills
+          </h2>
 
-</body>
-</html>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between mb-2">
+                <span class="text-sm font-medium">JavaScript/TypeScript</span>
+                <span class="text-sm text-slate-400">95%</span>
+              </div>
+              <div class="w-full bg-slate-700 rounded-full h-2">
+                <div class="skill-bar bg-gradient-to-r from-blue-400 to-purple-400 h-2 rounded-full" style="width: 95%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between mb-2">
+                <span class="text-sm font-medium">React/Next.js</span>
+                <span class="text-sm text-slate-400">90%</span>
+              </div>
+              <div class="w-full bg-slate-700 rounded-full h-2">
+                <div class="skill-bar bg-gradient-to-r from-green-400 to-blue-400 h-2 rounded-full" style="width: 90%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between mb-2">
+                <span class="text-sm font-medium">Node.js/Express</span>
+                <span class="text-sm text-slate-400">85%</span>
+              </div>
+              <div class="w-full bg-slate-700 rounded-full h-2">
+                <div class="skill-bar bg-gradient-to-r from-purple-400 to-pink-400 h-2 rounded-full" style="width: 85%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between mb-2">
+                <span class="text-sm font-medium">AWS/Cloud</span>
+                <span class="text-sm text-slate-400">80%</span>
+              </div>
+              <div class="w-full bg-slate-700 rounded-full h-2">
+                <div class="skill-bar bg-gradient-to-r from-yellow-400 to-red-400 h-2 rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up" style="animation-delay: 0.5s;">
+          <h2 class="text-xl sm:text-2xl font-bold mb-6 flex items-center">
+            <div class="w-8 h-8 bg-gradient-to-r from-indigo-400 to-purple-400 rounded-lg mr-3 flex items-center justify-center">
+              <i class="fas fa-graduation-cap text-white text-sm"></i>
+            </div>
+            Education
+          </h2>
+
+          <div class="space-y-4">
+            <div class="border-l-2 border-indigo-400 pl-4">
+              <h3 class="font-semibold text-white">Computer Science, B.S.</h3>
+              <p class="text-indigo-300 text-sm">Stanford University</p>
+              <p class="text-slate-400 text-xs">2015 - 2019</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up" style="animation-delay: 0.7s;">
+          <h2 class="text-xl sm:text-2xl font-bold mb-6 flex items-center">
+            <div class="w-8 h-8 bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-lg mr-3 flex items-center justify-center">
+              <i class="fas fa-certificate text-white text-sm"></i>
+            </div>
+            Certifications
+          </h2>
+
+          <div class="space-y-3">
+            <div class="flex items-center space-x-3">
+              <div class="w-3 h-3 bg-emerald-400 rounded-full"></div>
+              <span class="text-sm">AWS Solutions Architect</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-3 h-3 bg-blue-400 rounded-full"></div>
+              <span class="text-sm">Google Cloud Professional</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-3 h-3 bg-purple-400 rounded-full"></div>
+              <span class="text-sm">Kubernetes Administrator</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up" style="animation-delay: 0.8s;">
+          <h2 class="text-xl sm:text-2xl font-bold mb-6 flex items-center">
+            <div class="w-8 h-8 bg-gradient-to-r from-rose-400 to-pink-400 rounded-lg mr-3 flex items-center justify-center">
+              <i class="fas fa-link text-white text-sm"></i>
+            </div>
+            Connect
+          </h2>
+
+          <div class="space-y-4">
+            <a href="#" class="flex items-center space-x-3 text-sm hover:text-blue-400 transition-colors">
+              <div class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
+                <span class="text-xs font-bold">in</span>
+              </div>
+              <span>LinkedIn Profile</span>
+            </a>
+            <a href="#" class="flex items-center space-x-3 text-sm hover:text-purple-400 transition-colors">
+              <div class="w-8 h-8 bg-slate-700 rounded-lg flex items-center justify-center">
+                <span class="text-xs font-bold">GH</span>
+              </div>
+              <span>GitHub Portfolio</span>
+            </a>
+            <a href="#" class="flex items-center space-x-3 text-sm hover:text-green-400 transition-colors">
+              <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
+                <span class="text-xs font-bold">WEB</span>
+              </div>
+              <span>Personal Website</span>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
